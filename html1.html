@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tạo form đơn giản</title>
+
+</head>
+<body>
+<form name="so_thich" method="POST" action="sothichcuaban">
+    <table border="0" width="50%" align="center" >
+
+        <tr style="background-color: darkorange;font-size: 32px;color: white">
+            <th colspan="2">Sở thích của bạn</th>
+        </tr>
+
+        <tr>
+            <td style="text-align: right; color: #0000FF;width: 40%">Họ và tên</td>
+            <td><input type="text" name="Họ và tên" value""></td>
+        </tr>
+
+        <tr>
+            <td style="text-align: right; color: #0000FF">Email</td>
+            <td><input type="text" name="email" value=""></td>
+        </tr>
+    </table>
+
+    <table border="0" align="center" >
+        <tr>
+            <td style="text-align: right; color: #0000FF;width: 35%">Sở thích</td>
+            <td style="color: orange" width="0%"><input type="checkbox" name="hobby" value="1"> Thể thao<br>
+                <input type="checkbox" name="hobby" value="2"> Lướt web<br>
+                <input type="checkbox" name="hobby" value="3"> Du lịch<br>
+            </td>
+
+            <td style="color: orange"><input type="checkbox" name="hobby" value="4">Âm nhạc <br>
+                <input type="checkbox" name="hobby" value="5">Chơi game <br>
+                <br>
+            </td>
+
+            <td style="color: orange"><input type="checkbox" name="hobby" value="6">Đọc sách <br>
+                <input type="checkbox" name="hobby" value="7">Điện ảnh <br>
+                <br>
+            </td>
+        </tr>
+    </table>
+
+    <table style="text-align: right;width: 58%">
+        <tr>
+            <td></td>
+            <td><input type="submit" name="guithongtin" value="Gửi thông tin">
+                <input type="reset" name="nhaplai" value="Nhập lại"></td>
+
+        </tr>
+    </table>
+</body>
+</html>
