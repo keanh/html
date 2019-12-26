@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Hiển thị đầu ra</title>
+
+    <script>
+        function sudungalert() {
+            alert("Xin chào");
+        }
+    </script>
+
+
+    <div id="messageDiv"></div>
+    <script>
+        function sudungdocumentgetElementbyid() {
+            document.getElementById("messageDiv").innerHTML="Xin chào!";
+        }
+    </script>
+
+    <script>
+        function sudungdocument() {
+            document.write("Xin chào");
+        }
+    </script>
+
+    <script>
+        function sudungconsole() {
+            console.log("Xin chào!");
+        }
+    </script>
+</head>
+<body>
+    <input type="button" value="Hiển thị" onclick="sudungalert()">
+    <input type="button" value="Click me" onclick="sudungdocumentgetElementbyid()">
+    <input type="button" value="Ấn vào đây" onclick="sudungdocument()">
+    <input type="button" value="Click" onclick="sudungconsole()">
+</body>
+</html>
