@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Số nguyên tố</title>
+    <script>
+        function timsonguyento() {
+            let x;
+            x=prompt("Nhập số cần xét:");
+            x=parseFloat(x);
+            x=2;
+                alert("Đây là số nguyên tố");
+            if(x<2){
+                alert("Không phải số nguyên tố")
+            }
+            else {
+                for(var i=2;i<x-1;i++){
+                    if(x%i==0){
+                        alert("Không phải số nguyên tố")
+                        break;
+                    }else{
+                        alert("Đây là số nguyên tố")
+                        break;
+                    }
+                }
+            }
+
+        }
+
+    </script>
+</head>
+<body>
+    <input type="button" value="Kiểm tra số nguyên tố" onclick="timsonguyento()">
+</body>
+</html>
